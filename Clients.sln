@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{1DF95764-D2B2-4E6D-ACDE-3D9239C63E1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{03EBAAF7-192A-422B-8E84-B7358CB88FAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3593D8FC-40A8-46FF-BBFA-6F08832EC116}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vestigen.Clients.HashiCorp", "src\Vestigen.Clients.HashiCorp\Vestigen.Clients.HashiCorp.csproj", "{E0B75732-2E0D-41A3-AD0F-F48AE46EDEFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vestigen.Clients.HashiCorp.Vault", "src\Vestigen.Clients.HashiCorp.Vault\Vestigen.Clients.HashiCorp.Vault.csproj", "{76C79532-6F2E-4F0A-B563-8A586AFAE78F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vestigen.Clients.HashiCorp.Consul", "src\Vestigen.Clients.HashiCorp.Consul\Vestigen.Clients.HashiCorp.Consul.csproj", "{CB779AD0-92A5-46AD-AAB7-4B1BB2F832A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vestigen.Clients.HashiCorp.IntegrationTests", "tests\Vestigen.Clients.HashiCorp.IntegrationTests\Vestigen.Clients.HashiCorp.IntegrationTests.csproj", "{9FD36906-BCED-4813-942E-04A83830A325}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vestigen.Clients.HashiCorp.Vault.IntegrationTests", "tests\Vestigen.Clients.HashiCorp.Vault.IntegrationTests\Vestigen.Clients.HashiCorp.Vault.IntegrationTests.csproj", "{C630B2EB-99EC-4F8F-A140-1A9403A6C214}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vestigen.Clients.HashiCorp.Consul.IntegrationTests", "tests\Vestigen.Clients.HashiCorp.Consul.IntegrationTests\Vestigen.Clients.HashiCorp.Consul.IntegrationTests.csproj", "{75DFF4BE-43C2-44F5-B1D4-A8680F46DD7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "samples\ConsoleApp\ConsoleApp.csproj", "{68408FA3-777A-4A6F-8DED-DB97CEC4FFA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vestigen.Clients.HashiCorp.UnitTests", "tests\Vestigen.Clients.HashiCorp.UnitTests\Vestigen.Clients.HashiCorp.UnitTests.csproj", "{EB084305-4AD1-40C0-A61F-BD4F65234718}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0B75732-2E0D-41A3-AD0F-F48AE46EDEFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0B75732-2E0D-41A3-AD0F-F48AE46EDEFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0B75732-2E0D-41A3-AD0F-F48AE46EDEFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0B75732-2E0D-41A3-AD0F-F48AE46EDEFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76C79532-6F2E-4F0A-B563-8A586AFAE78F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76C79532-6F2E-4F0A-B563-8A586AFAE78F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76C79532-6F2E-4F0A-B563-8A586AFAE78F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76C79532-6F2E-4F0A-B563-8A586AFAE78F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB779AD0-92A5-46AD-AAB7-4B1BB2F832A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB779AD0-92A5-46AD-AAB7-4B1BB2F832A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB779AD0-92A5-46AD-AAB7-4B1BB2F832A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB779AD0-92A5-46AD-AAB7-4B1BB2F832A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FD36906-BCED-4813-942E-04A83830A325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FD36906-BCED-4813-942E-04A83830A325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FD36906-BCED-4813-942E-04A83830A325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FD36906-BCED-4813-942E-04A83830A325}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C630B2EB-99EC-4F8F-A140-1A9403A6C214}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C630B2EB-99EC-4F8F-A140-1A9403A6C214}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C630B2EB-99EC-4F8F-A140-1A9403A6C214}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C630B2EB-99EC-4F8F-A140-1A9403A6C214}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75DFF4BE-43C2-44F5-B1D4-A8680F46DD7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75DFF4BE-43C2-44F5-B1D4-A8680F46DD7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75DFF4BE-43C2-44F5-B1D4-A8680F46DD7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75DFF4BE-43C2-44F5-B1D4-A8680F46DD7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68408FA3-777A-4A6F-8DED-DB97CEC4FFA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68408FA3-777A-4A6F-8DED-DB97CEC4FFA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68408FA3-777A-4A6F-8DED-DB97CEC4FFA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68408FA3-777A-4A6F-8DED-DB97CEC4FFA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB084305-4AD1-40C0-A61F-BD4F65234718}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB084305-4AD1-40C0-A61F-BD4F65234718}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB084305-4AD1-40C0-A61F-BD4F65234718}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB084305-4AD1-40C0-A61F-BD4F65234718}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E0B75732-2E0D-41A3-AD0F-F48AE46EDEFC} = {3593D8FC-40A8-46FF-BBFA-6F08832EC116}
+		{76C79532-6F2E-4F0A-B563-8A586AFAE78F} = {3593D8FC-40A8-46FF-BBFA-6F08832EC116}
+		{CB779AD0-92A5-46AD-AAB7-4B1BB2F832A6} = {3593D8FC-40A8-46FF-BBFA-6F08832EC116}
+		{9FD36906-BCED-4813-942E-04A83830A325} = {1DF95764-D2B2-4E6D-ACDE-3D9239C63E1A}
+		{C630B2EB-99EC-4F8F-A140-1A9403A6C214} = {1DF95764-D2B2-4E6D-ACDE-3D9239C63E1A}
+		{75DFF4BE-43C2-44F5-B1D4-A8680F46DD7E} = {1DF95764-D2B2-4E6D-ACDE-3D9239C63E1A}
+		{68408FA3-777A-4A6F-8DED-DB97CEC4FFA3} = {03EBAAF7-192A-422B-8E84-B7358CB88FAA}
+		{EB084305-4AD1-40C0-A61F-BD4F65234718} = {1DF95764-D2B2-4E6D-ACDE-3D9239C63E1A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2B9BDD6-DE9C-4103-8DC9-561ABD5D5785}
+	EndGlobalSection
+EndGlobal
